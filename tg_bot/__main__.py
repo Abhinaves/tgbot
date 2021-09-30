@@ -43,11 +43,11 @@ the things I can help you with.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
-It took lots of work for [my creator](t.me/SonOfLars) to get me to where I am now, and every donation helps \
+DONATE_STRING = """Hey, glad to hear you want to donate!
+It took lots of work for [my creator](t.me/Abhinave_s) to get me to where I am now, and every donation helps \
 motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer \
 (see his bio!). He's just a poor student, so every little helps!
-There are two ways of paying him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
+There are one way of paying him; [Contact on Tg](t.me/AbhinaveSuresh)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -145,8 +145,8 @@ def start(bot: Bot, update: Update, args: List[str]):
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text="Group 🎬", url="t.me/cinemacollectiongroup"),  InlineKeyboardButton(text="Channel📺", url="https://t.me/Tamil_mv_movies1")],
-                     [InlineKeyboardButton(text="Dev👽", url="https://t.me/Abhinave_s"), InlineKeyboardButton(text="⚡More Bots", url="https://t.me/Abhinavesuresh")],
-                     [InlineKeyboardButton(text="🎬 Youtube Channel", url="https://www.youtube.com/stealthtechnogaming?sub_confirmation=1"), InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
+                     [InlineKeyboardButton(text="DEV🧑‍💻", url="https://t.me/Abhinave_s"), InlineKeyboardButton(text="⚡More Bots", url="https://t.me/Abhinavesuresh")],
+                     [InlineKeyboardButton(text="Creator👽", url="https://t.me/kochunni_boy"), InlineKeyboardButton(text="🍎 Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
 
     else:
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
