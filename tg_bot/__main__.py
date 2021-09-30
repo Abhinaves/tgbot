@@ -20,10 +20,10 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 
 ഹായ് {}, എന്റെ പേര് {}! 
-ഞാൻ ഒരു ഗ്രൂപ്പ് മാനേജർ ബോട്ട് ആണ്, 
-Cinema Collection ഗ്രൂപ്പിന് വേണ്ടി മാത്രമാണ് എന്നെ നിർമിച്ചിരിക്കുന്നത്.
-വെറുതെ അവിടേം ഇവിടേം ഞെക്കി സമയം കളയണ്ട..
-എന്നെ CINEMA COLLECTION ഗ്രൂപ്പിൽ മാത്രമേ ഉപയോഗിക്കാൻ കഴിയൂ..
+ഞാൻ ഒരു ഗ്രൂപ്പ് മാനേജർ ബോട്ട് ആണ്🧘, 
+Cinema Collection ഗ്രൂപ്പിന് വേണ്ടി മാത്രമാണ് എന്നെ നിർമിച്ചിരിക്കുന്നത്😌.
+വെറുതെ അവിടേം ഇവിടേം ഞെക്കി സമയം കളയണ്ട🤫..
+എന്നെ CINEMA COLLECTION ഗ്രൂപ്പിൽ മാത്രമേ ഉപയോഗിക്കാൻ കഴിയൂ🙃..
 
 """
 
@@ -145,8 +145,8 @@ def start(bot: Bot, update: Update, args: List[str]):
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text="Group 🎬", url="t.me/cinemacollectiongroup"),  InlineKeyboardButton(text="Channel📺", url="https://t.me/Tamil_mv_movies1")],
-                     [InlineKeyboardButton(text="DEV🧑‍💻", url="https://t.me/Abhinave_s"), InlineKeyboardButton(text="⚡More Bots", url="https://t.me/Abhinavesuresh")],
-                     [InlineKeyboardButton(text="Creator👽", url="https://t.me/kochunni_boy"), InlineKeyboardButton(text="🍎 Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
+                     [InlineKeyboardButton(text="Creator👽", url="https://t.me/kochunni_boy"), InlineKeyboardButton(text="⚡More Bots", url="https://t.me/Abhinavesuresh")],
+                           [InlineKeyboardButton(text="Dev🧑‍💻", url="https://t.me/Abhinave_S") ]]))
 
     else:
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
